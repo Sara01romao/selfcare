@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 94px;
+  border: 1px solid red;
+}
+
+.logo{
+  width: 200px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px ;
+  padding-bottom: 32px;
+ 
+}
+
+.name{
+  width: 91.28px;
+  height: 31px;
+}
+
+.star{
+  width: 19.81px;
+  height: 18.94px;
+  margin-right: 9px;
+ 
+}
+
+ul{
+  list-style: none;
+}
+
+nav ul{
+  display: flex;
+
+  flex-direction: row;
+  margin-right: 150px;
+ 
+  width: 138px;
+  height: 24px;
+
+}
+
+li img{
+  width: 21.14px;
+  margin-left: 42px ;
+}
+
+
+.banner img{
+  max-width: 100%;
+  height: 375px;
+}
+
