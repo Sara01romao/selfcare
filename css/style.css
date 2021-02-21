@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
+}
+
+body{
+  font-family: 'Lato', sans-serif;
 }
 
 
@@ -63,4 +69,59 @@ li img{
   max-width: 100%;
   height: 375px;
 }
+
+
+
+/*=======Catálogo=============*/
+
+
+.catalogo-Header{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin: 34px 4% 29px 4%;
+
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 70px ;
+
+}
+.card{
+  flex: 1;
+  margin-bottom: 62px;
+
+}
+
+.card img{
+  width: 303px;
+height: 303px;
+border-radius: 5px;
+
+margin-top: 57px;
+margin-bottom: 23px;
+
+}
+
+.card p{
+  
+  font-size: 22px;
+}
+
+.preco{
+  font-size: 20px;
+  font-weight: bold;
+
+  margin-top: 11px;
+}
+
+span{
+  color: #5CA720 ;
+}
+
+
 
