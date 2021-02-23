@@ -48,6 +48,10 @@ ul{
   list-style: none;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
 nav ul{
   display: flex;
 
@@ -74,6 +78,9 @@ li img{
 
 /*=======Catálogo=============*/
 
+.catalogo{
+  margin-bottom: 10%;
+}
 
 .catalogo-Header{
   display: flex;
@@ -92,13 +99,13 @@ li img{
 
 }
 .card{
-  flex: 1;
+ 
   margin-bottom: 62px;
 
 }
 
 .card img{
-  width: 303px;
+width: 303px;
 height: 303px;
 border-radius: 5px;
 
@@ -124,4 +131,24 @@ span{
 }
 
 
+/*=======Footer=============*/
 
+footer{
+  background: #F9F9F9;
+
+}
+
+.part1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 6%;
+}
+.lista li{
+  margin-bottom: 10px;
+}
+
+.lista li a{
+  font-size: 20px;
+  font-weight: 600;
+}
