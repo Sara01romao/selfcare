@@ -93,10 +93,11 @@ li img{
 .cards{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin: 0px 50px ;
+  margin: 0px auto ;
   border: 2px solid coral;
+
 
 }
 
@@ -109,10 +110,11 @@ li img{
  
   margin-bottom: 62px;
   border: 1px solid red;
- 
-   margin: 30px 50px 30px 58px; 
+  margin:0px 3%;
+   
 
 }
+
 
 
 
@@ -153,11 +155,13 @@ footer{
 }
 
 .part1{
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 3% 6%;
+  border-bottom:  0.2px solid #A5A1A1;
 }
 .lista li{
   margin-bottom: 10px;
@@ -217,4 +221,41 @@ footer{
 .formNl button:hover{
   background: #346d05da;
   box-shadow: 0 0 10px #719ECE;
+}
+
+.part2{
+  display: flex;
+  justify-content: space-between;
+  margin: 43px 8% 0px 8%;
+  padding-bottom: 55px;
+}
+
+.social img{
+  width: 33.5px;
+  height: 33.5px;
+  margin-right: 20px;
+}
+
+.banco{
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.banco img{
+  margin-left: 23px;
+}
+
+.visa{
+  width: 56.38px;
+height: 18.21px;
+}
+
+.pp{
+  width: 28.08px;
+height: 33.14px;
+}
+
+.mc{
+  width: 56.33px;
+  height: 43.71px;
 }
