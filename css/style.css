@@ -9,263 +9,112 @@ body {
     font-family: "Lato", sans-serif;
 }
 
+
+/*====HEADER===*/
+
 header {
+    border: 1px solid red;
+    height: 82px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: 94px;
-    border: 1px solid red;
+    justify-content: space-evenly;
 }
 
 .logo {
-    width: 200px;
+    width: 83px;
+    height: 21.5px;
+    margin: 0 auto 0 32px;
+}
+
+nav ul {
+    width: 50px;
+    border: 1px solid red;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 32px;
-    padding-bottom: 32px;
-}
-
-.name {
-    width: 91.28px;
-    height: 31px;
-}
-
-.star {
-    width: 19.81px;
-    height: 18.94px;
-    margin-right: 9px;
+    justify-content: space-between;
 }
 
 ul {
     list-style: none;
+    margin: 0 33px 0 auto;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+ul li {
+    margin-right: 10px;
 }
 
-nav ul {
-    display: flex;
-    flex-direction: row;
-    margin-right: 150px;
-    width: 138px;
-    height: 24px;
+ul li img {
+    width: 14px;
+    height: 14px;
 }
 
-li img {
-    width: 21.14px;
-    margin-left: 42px;
-}
 
-.banner img {
+/*======BANNER=======*/
+
+.banner {
+    background-image: url(../assets/img/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 375px;
+    height: 221px;
 }
 
 
-/*=======Catálogo=============*/
+/*======MAIN=======*/
 
-.catalogo {
-    margin-bottom: 10%;
-}
-
-.catalogo-Header {
+.promo {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 34px 4% 29px 4%;
-}
-
-.cards {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    margin: 0px 30px;
-}
-
-.card:last-child {
-    background-color: rgb(25, 201, 9);
-}
-
-.card {
-    margin-bottom: 62px;
     border: 1px solid red;
-    margin: 32px 3%;
+    height: 58px;
+    padding: 0 33px;
+    border-bottom: 2px solid yellow;
 }
 
-.card img {
-    width: 303px;
-    height: 303px;
-    border-radius: 5px;
-    margin-top: 0px;
-    margin-bottom: 23px;
-}
-
-.card p {
-    font-size: 22px;
-}
-
-.preco {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 11px;
-}
-
-span {
-    color: #5ca720;
-}
-
-@media only screen and (max-width:756px) {
-    .card img {
-        width: 126.44px;
-        height: 126.44px;
-        border-radius: 5px;
-        margin-top: 0px;
-        margin-bottom: 23px;
-    }
-    .card p {
-        font-size: 12px;
-    }
-    .preco {
-        font-size: 13px;
-        font-weight: bold;
-        margin-top: 11px;
-    }
-}
-
-
-/*=======Footer=============*/
-
-footer {
-    background: #f9f9f9;
-}
-
-.part1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3% 6%;
-    border-bottom: 0.2px solid #a5a1a1;
-}
-
-.lista {
-    margin-bottom: 25px;
-}
-
-.lista li {
-    margin-bottom: 10px;
-}
-
-.lista li a {
-    font-size: 20px;
+.promo h2 {
+    font-size: 14px;
     font-weight: 600;
 }
 
-.newsletter {
-    margin-top: 25px;
-    padding-bottom: 40px;
-}
 
-.newsletter label {
-    font-weight: bold;
-    font-size: 20px;
-}
+/**/
 
-.formNl input {
-    width: 397px;
-    height: 54px;
-    margin-top: 18px;
-    border: none;
-    padding-left: 13px;
-    border: 0.5px solid #d9d9d9;
-    border-radius: 5px 0px 0px 5px;
-}
-
-.formNl input:focus {
-    outline: none !important;
-    border: 1px solid rgb(25, 201, 9);
-    box-shadow: 0 0 10px #719ece;
-}
-
-.formNl input::placeholder {
-    color: #a8a4a4;
-}
-
-.formNl button {
-    width: 152px;
-    height: 54px;
-    position: relative;
-    right: 3px;
-    top: 2.4px;
-    background: #5ca720;
-    border: none;
-    border-radius: 0px 5px 5px 0px;
-    color: white;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-.formNl button:hover {
-    background: #346d05da;
-    box-shadow: 0 0 10px #719ece;
-}
-
-@media screen and ( max-width: 640px) {
-    .formNl button {
-        width: 397px;
-        height: 54px;
-        margin: 17px auto;
-        border-radius: 5px 5px;
-        position: relative;
-        right: 0px;
-        top: 0px;
-    }
-    .formNl input {
-        width: 397px;
-        height: 54px;
-        font-size: 16px;
-    }
-}
-
-.part2 {
+.catalogo {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
-    margin: 43px 8% 0px 8%;
-    padding-bottom: 55px;
+    padding: 28px 20px;
 }
 
-.social img {
-    width: 33.5px;
-    height: 33.5px;
+.card {
+    margin-top: 20px;
+}
+
+.cardLeft {
     margin-right: 20px;
 }
 
-.banco {
-    display: flex;
-    align-items: center;
-    align-content: center;
+.catalogo:last-child {
+    margin-right: 0px;
 }
 
-.banco img {
-    margin-left: 23px;
+.card img {
+    width: 126px;
+    height: 126px;
+    border-radius: 2.1px;
 }
 
-.visa {
-    width: 56.38px;
-    height: 18.21px;
+.card p {
+    font-size: 12px;
+    font-weight: 500px;
 }
 
-.pp {
-    width: 28.08px;
-    height: 33.14px;
+.preco {
+    margin-top: 8px;
+    font-weight: bold;
 }
 
-.mc {
-    width: 56.33px;
-    height: 43.71px;
+.card span {
+    color: #5CA720;
 }
