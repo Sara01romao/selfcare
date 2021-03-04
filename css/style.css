@@ -92,7 +92,7 @@ ul li img {
 }
 
 .cardLeft {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .catalogo:last-child {
@@ -117,4 +117,59 @@ ul li img {
 
 .card span {
     color: #5CA720;
+}
+
+
+/*======FOOTER=======*/
+
+footer {
+    margin-top: 30px;
+    border-top: 0.2px solid #A5A1A1;
+    background: #F9F9F9
+}
+
+.infoFooter {
+    padding: 30px 22px;
+}
+
+.lista {
+    margin-bottom: 27px;
+}
+
+.lista li {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.newletter p {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    height: 43px;
+    background: #FFFFFF;
+    border: 0.395833px solid #D9D9D9;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #A8A4A4;
+    margin-bottom: 17px;
+}
+
+form button {
+    height: 43px;
+    background: #5CA720;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 800;
 }
