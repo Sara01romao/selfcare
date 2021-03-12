@@ -75,10 +75,10 @@ ul li img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid red;
+  
     height: 58px;
     padding: 0 33px;
-    border-bottom: 2px solid yellow;
+   
 }
 
 .promo h2 {
@@ -145,6 +145,13 @@ ul li img {
         margin-bottom: 12px;
     }
 
+    .card{
+       
+       
+        margin-bottom: 3%;
+    }
+
+
 }
 
 @media screen and (min-width: 694px){
@@ -159,17 +166,17 @@ ul li img {
 @media screen and (min-width: 816px){
     .catalogo{
         padding: 28px 33px 28px 20px;
-        border: 1px solid blue;
+       
         justify-content: space-between;
         
     }
     .card{
-        border: 1px solid red;
+       
         margin-left: 35px;
         margin-bottom: 75px;
     }
 
-    
+
 
     .card img{
         width: 303px;
@@ -182,7 +189,7 @@ ul li img {
 @media screen and (min-width: 1071px){
     .catalogo{
         padding: 28px 33px 28px 20px;
-        border: 1px solid blue;
+       
         justify-content: space-between;
         
     }
@@ -240,7 +247,7 @@ ul li img {
     .card p {
         font-size: 18px;
         font-weight: 500px;
-      
+    }
 }
 
 @media screen and (min-width: 696px){
@@ -349,24 +356,52 @@ form button {
 }
 
 
+@media screen and (min-width: 817px){
+    
+        .infoFooter {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0  70px 0 45px;
 
+        }
+        .infoFooter ul{
+            margin-top: 40px;
+        }
+
+        .infoFooter li{
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: row;
+            
+        }
+
+        form input {
+            width: 397px;
+            height: 54px;
+           
+           
+           
+        }
+        
+        
+        
+        
+        form button {
+            width: 152px;
+            height: 54px;
+            background: #5CA720;
+            border: none;
+           
+        }
+}
 
 
 
 /*===========Medias==================*/
 
 /*------tablet---------*/
-
-/* @media screen and (min-width: 410px){
-    .banner {
-        background-image: url(../assets/img/00banner.png);
-        
-        width: 100%;
-        height: 221px;
-    }
-    .catalogo{
-        background-color: red;
-        padding: 28px 33px;
-        
-    }
-} */
