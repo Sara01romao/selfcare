@@ -47,6 +47,27 @@ ul li img {
     height: 14px;
 }
 
+@media screen and (min-width: 410px){
+   header{
+       padding: 0 10% 0 5%;
+   }
+
+   .logo {
+    width: 119px;
+    height: 31.5px;
+    
+}
+    ul li {
+        margin-right: 30px;
+    }
+
+    ul li img {
+        width: 21px;
+        height: 21px;
+        
+    }
+}
+
 
 /*======BANNER=======*/
 
@@ -326,6 +347,12 @@ form button {
     color: #FFFFFF;
     font-weight: 800;
     margin-bottom: 12px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background: #000000;
+    transition: 0.8s;
 }
 
 
